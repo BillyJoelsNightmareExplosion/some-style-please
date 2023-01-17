@@ -23,9 +23,11 @@ html, body { background: white; }
 
 html { height: 100%; }
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
 body {
   color: black;
-  font-family: serif;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
