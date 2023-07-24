@@ -23,12 +23,17 @@ html, body { background: white; }
 
 html { height: 100%; }
 
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-@import url("https://github.com/BillyJoelsNightmareExplosion/some-style-please/raw/master/AlteHaasGroteskBold.ttf");
+/* @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap'); */
+/* @import url("https://github.com/BillyJoelsNightmareExplosion/some-style-please/raw/master/AlteHaasGroteskBold.ttf"); */
+
+@font-face {
+  font-family: "1929";
+  src: url("../assets/fonts/1929.ttf");
+}
 
 body {
   color: black;
-  font-family: 'Alte Haas Grotesk', sans-serif;
+  font-family: '1929', sans-serif;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
