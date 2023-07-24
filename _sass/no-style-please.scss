@@ -27,13 +27,16 @@ html { height: 100%; }
 /* @import url("https://github.com/BillyJoelsNightmareExplosion/some-style-please/raw/master/AlteHaasGroteskBold.ttf"); */
 
 @font-face {
-  font-family: "1929";
-  src: url("../assets/fonts/1929.ttf");
-}
+  font-family: 'alte_haas_groteskregular';
+  src: url('../assets/fonts/altehaasgroteskregular-webfont.woff2') format('woff2'),
+       url('../assets/fonts/altehaasgroteskregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
 body {
   color: black;
-  font-family: '1929', sans-serif;
+  font-family: 'alte_haas_groteskregular', sans-serif;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
